@@ -19,7 +19,7 @@ public class SimpleCountDownTimer extends CountDownTimer {
     private int sec = 1000, min = sec * 60, hr = min * 60;
 
     /**
-     * 显示时间的视图®
+     * 显示时间的视图
      */
     private TextView tvDisplay;
 
