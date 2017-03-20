@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CountDownTimerDemo</string>
+    <string name="start">Start</string>
+    <string name="input_total_time">input total time, unit: ms</string>
+</resources>
