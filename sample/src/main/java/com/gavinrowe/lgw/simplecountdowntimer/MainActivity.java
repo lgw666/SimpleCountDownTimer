@@ -32,7 +32,12 @@ public class MainActivity extends AppCompatActivity {
         // 总时间
         long totalTime = 5000;
         // 初始化并启动倒计时
-        new SimpleCountDownTimer(totalTime, tvDisplay).start();
+        new SimpleCountDownTimer(totalTime, tvDisplay).setOnFinishListener(new SimpleCountDownTimer.OnFinishListener() {
+            @Override
+            public void onFinish() {
+
+            }
+        }).start();
     }
 
     // Start按钮点击时间
