@@ -1,4 +1,4 @@
-package com.gavinrowe.lgw.simplecountdowntimerdemo;
+package com.gavinrowe.lgw.simplecountdowntimer;
 
 import org.junit.Test;
 

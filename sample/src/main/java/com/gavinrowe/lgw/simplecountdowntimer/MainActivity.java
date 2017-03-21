@@ -1,4 +1,4 @@
-package com.gavinrowe.lgw.simplecountdowntimerdemo;
+package com.gavinrowe.lgw.simplecountdowntimer;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

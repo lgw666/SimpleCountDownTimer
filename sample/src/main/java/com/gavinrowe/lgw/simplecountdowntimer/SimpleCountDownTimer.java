@@ -1,4 +1,4 @@
-package com.gavinrowe.lgw.simplecountdowntimerdemo;
+package com.gavinrowe.lgw.simplecountdowntimer;
 
 import android.os.CountDownTimer;
 import android.widget.TextView;

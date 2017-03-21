@@ -1,4 +1,4 @@
-package com.gavinrowe.lgw.simplecountdowntimerdemo;
+package com.gavinrowe.lgw.simplecountdowntimer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
