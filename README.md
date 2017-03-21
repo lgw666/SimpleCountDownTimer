@@ -46,16 +46,20 @@
    
  * ### Params-unit: ms
 
-
+   ```
    long totalTime;
-  
+   ```
    The number of millis in the future from the call to start() until the countdown is done and onFinish() is called.
    
+   ```
    long intervalTime;
+   ```
    
    The interval time of count down.
    
+   ```
    TextView textView;
+   ```
    
    A text view used to display count down time.
    
