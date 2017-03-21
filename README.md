@@ -5,7 +5,7 @@
  
  ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
 
- * Setup
+ * #### Setup
 
    Step 1. Add the JitPack repository to your build file Add it in your root build.gradle at the end of repositories:
             
@@ -21,7 +21,7 @@
              dependencies {
              	        compile 'com.github.lgw666:SimpleCountDownTimer:1.1'
              	}
- * Usage
+ * ####Usage
 
    Simple show :
 
@@ -40,13 +40,13 @@
              }
          }).start();
    ```
- * Other methods
+ * ####Other methods
  
    synchronized final CountDownTimer start(); Start the countdown.
 
    final void cancel(); Cancel the countdown.
    
-   <h4>If you want to know more:</h4>[More details](https://developer.android.google.cn/reference/android/os/CountDownTimer.html)
+   ###[More details](https://developer.android.google.cn/reference/android/os/CountDownTimer.html)
 
  
          
