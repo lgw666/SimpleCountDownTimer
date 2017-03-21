@@ -1,12 +1,12 @@
 # SimpleCountDownTimer
 
- ### [中文版]( https://github.com/lgw666/SimpleCountDownTimer/blob/master/README-CN.md)
+  ### [中文版]( https://github.com/lgw666/SimpleCountDownTimer/blob/master/README-CN.md)
 
  * A simple h，min，sec and ms count down timer.
  * Author： Luo Guowen Email:<a href="#">luoguowen123@qq.com</a>
  
   
- ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
+  ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
  
  * ### Setup
 
@@ -46,7 +46,7 @@
    
  * ### Params-unit: ms
  
-  The number of millis in the future from the call to start() until the countdown is done and onFinish() is called.
+   The number of millis in the future from the call to start() until the countdown is done and onFinish() is called.
  
    ```
    long totalTime;
