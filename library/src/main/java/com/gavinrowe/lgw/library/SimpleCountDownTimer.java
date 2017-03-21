@@ -1,7 +1,9 @@
-package com.gavinrowe.lgw.simplecountdowntimerdemo;
+package com.gavinrowe.lgw.library;
 
 import android.os.CountDownTimer;
 import android.widget.TextView;
+
+import com.gavinrowe.lgw.library.R;
 
 /**
  * 简单 时，分，秒，毫秒倒计时
@@ -13,6 +15,7 @@ import android.widget.TextView;
 
 public class SimpleCountDownTimer extends CountDownTimer {
 
+
     /**
      * 秒，分，时对应的毫秒数
      */
@@ -22,6 +25,11 @@ public class SimpleCountDownTimer extends CountDownTimer {
      * 显示时间的视图
      */
     private TextView tvDisplay;
+
+    /**
+     * 结束监听
+     */
+    private static OnFinishListener onFinishListener;
 
     /**
      * @param millisInFuture    倒计时总时间 单位：毫秒
@@ -75,11 +83,29 @@ public class SimpleCountDownTimer extends CountDownTimer {
     }
 
     /**
+     * 结束监听，可以在倒计时结束时做一些事
+     */
+    public interface OnFinishListener {
+        void onFinish();
+    }
+
+    /**
+     * 设置结束监听
+     *
+     * @param onFinishListener 结束监听对象
+     */
+    public void setOnFinishListener(OnFinishListener onFinishListener) {
+        SimpleCountDownTimer.onFinishListener = onFinishListener;
+    }
+
+    /**
      * 倒计时结束时调用
      */
     @Override
     public void onFinish() {
-        tvDisplay.setText("倒计时结束");
+        tvDisplay.setText(R.string.default_time);
+        if (onFinishListener != null)
+            onFinishListener.onFinish();
     }
 
 

@@ -2,4 +2,5 @@
     <string name="app_name">CountDownTimerDemo</string>
     <string name="start">Start</string>
     <string name="input_total_time">input total time, unit: ms</string>
+    <string name="default_time">00:00:00</string>
 </resources>
