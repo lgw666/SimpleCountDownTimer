@@ -21,7 +21,7 @@
              dependencies {
              	        compile 'com.github.lgw666:SimpleCountDownTimer:1.1'
              	}
- * ####Usage
+ * #### Usage
 
    Simple show :
 
@@ -40,13 +40,13 @@
              }
          }).start();
    ```
- * ####Other methods
+ * #### Other methods
  
    synchronized final CountDownTimer start(); Start the countdown.
 
    final void cancel(); Cancel the countdown.
    
-   ###[More details](https://developer.android.google.cn/reference/android/os/CountDownTimer.html)
+   ### [More details](https://developer.android.google.cn/reference/android/os/CountDownTimer.html)
 
  
          
