@@ -1,7 +1,7 @@
 # SimpleCountDownTimer
 
  * A simple h，min，sec and ms count down timer.
- * author： Luo Guowen Email:<a href="#">luoguowen123@qq.com</a>
+ * Author： Luo Guowen Email:<a href="#">luoguowen123@qq.com</a>
  
  ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
 
@@ -40,5 +40,13 @@
              }
          }).start();
    ```
+ * Other methods
+ 
+   synchronized final CountDownTimer start(); Start the countdown.
+
+   final void cancel(); Cancel the countdown.
    
+   <h4>If you want to know more:</h4>[More details](https://developer.android.google.cn/reference/android/os/CountDownTimer.html)
+
+ 
          
