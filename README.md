@@ -1,9 +1,13 @@
 # SimpleCountDownTimer
 
+ ### [中文版]( https://github.com/lgw666/SimpleCountDownTimer/blob/master/README-CN.md)
+
  * A simple h，min，sec and ms count down timer.
  * Author： Luo Guowen Email:<a href="#">luoguowen123@qq.com</a>
  
+  
  ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
+ 
  * ### Setup
 
    Step 1. Add the JitPack repository to your build file Add it in your root build.gradle at the end of repositories:
