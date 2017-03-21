@@ -14,7 +14,6 @@ import android.widget.TextView;
 public class SimpleCountDownTimer extends CountDownTimer {
     // 默认倒计时间隔
     private static final long DEFAULT_INTERVAL = 100L;
-
     /**
      * 秒，分，时对应的毫秒数
      */

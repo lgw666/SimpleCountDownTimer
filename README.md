@@ -40,5 +40,13 @@
              }
          }).start();
    ```
+ * Other methods
+ 
+   synchronized final CountDownTimer start(); Start the countdown.
+
+   final void cancel(); Cancel the countdown.
    
+   <h4>If you want to know more:</h4>[More details](https://developer.android.google.cn/reference/android/os/CountDownTimer.html)
+
+ 
          
