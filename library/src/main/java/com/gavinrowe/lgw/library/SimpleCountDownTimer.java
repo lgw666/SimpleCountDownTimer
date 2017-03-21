@@ -3,8 +3,6 @@ package com.gavinrowe.lgw.library;
 import android.os.CountDownTimer;
 import android.widget.TextView;
 
-import com.gavinrowe.lgw.library.R;
-
 /**
  * 简单 时，分，秒，毫秒倒计时
  *
@@ -14,7 +12,8 @@ import com.gavinrowe.lgw.library.R;
  */
 
 public class SimpleCountDownTimer extends CountDownTimer {
-
+    // 默认倒计时间隔
+    private static final long DEFAULT_INTERVAL = 100L;
 
     /**
      * 秒，分，时对应的毫秒数
@@ -43,6 +42,19 @@ public class SimpleCountDownTimer extends CountDownTimer {
      */
     public SimpleCountDownTimer(long millisInFuture, long countDownInterval, TextView tvDisplay) {
         super(millisInFuture, countDownInterval);
+        this.tvDisplay = tvDisplay;
+    }
+
+    /**
+     * @param millisInFuture    倒计时总时间 单位：毫秒
+     *                          The number of millis in the future from the call
+     *                          to {@link #start()} until the countdown is done and {@link #onFinish()}
+     *                          is called.
+     *
+     * @param tvDisplay         显示时间的视图
+     */
+    public SimpleCountDownTimer(long millisInFuture, TextView tvDisplay) {
+        super(millisInFuture, DEFAULT_INTERVAL);
         this.tvDisplay = tvDisplay;
     }
 
@@ -94,8 +106,9 @@ public class SimpleCountDownTimer extends CountDownTimer {
      *
      * @param onFinishListener 结束监听对象
      */
-    public void setOnFinishListener(OnFinishListener onFinishListener) {
+    public SimpleCountDownTimer setOnFinishListener(OnFinishListener onFinishListener) {
         SimpleCountDownTimer.onFinishListener = onFinishListener;
+        return this;
     }
 
     /**

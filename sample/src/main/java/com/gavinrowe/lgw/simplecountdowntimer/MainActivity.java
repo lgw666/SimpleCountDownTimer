@@ -32,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
         // 总时间
         long totalTime = 5000;
         // 初始化并启动倒计时
-        countDownTimer = new SimpleCountDownTimer(totalTime, INTERVAL, tvDisplay);
-        countDownTimer.start();
+        new SimpleCountDownTimer(totalTime, tvDisplay).start();
     }
 
     // Start按钮点击时间
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         if (!strTotalTime.isEmpty()) {
             long totalTime = Long.parseLong(strTotalTime);
             countDownTimer.cancel();
-            countDownTimer = new SimpleCountDownTimer(totalTime, INTERVAL, tvDisplay);
+            countDownTimer = new SimpleCountDownTimer(totalTime, tvDisplay);
             countDownTimer.start();
         } else {
             Toast.makeText(this, "请输入正确的时间！", Toast.LENGTH_SHORT).show();
