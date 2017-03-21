@@ -4,8 +4,7 @@
  * Author： Luo Guowen Email:<a href="#">luoguowen123@qq.com</a>
  
  ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
-
- * #### Setup
+ * ### Setup
 
    Step 1. Add the JitPack repository to your build file Add it in your root build.gradle at the end of repositories:
             
@@ -21,7 +20,7 @@
              dependencies {
              	        compile 'com.github.lgw666:SimpleCountDownTimer:1.1'
              	}
- * #### Usage
+ * ### Usage
 
    Simple show :
 
@@ -40,7 +39,7 @@
              }
          }).start();
    ```
- * #### Other methods
+ * ### Other methods
  
    synchronized final CountDownTimer start(); Start the countdown.
 
