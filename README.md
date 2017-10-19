@@ -1,6 +1,6 @@
 # SimpleCountDownTimer
 
-  ### [中文版]( https://github.com/lgw666/SimpleCountDownTimer/blob/master/README-CN.md)
+  ### [中文版]( https://github.com/lgw666/SimpleCountDownTimer/blob/master/README-CHN.md)
 
  * A simple h，min，sec and ms count down timer.
  * Author：Luo Guowen 
