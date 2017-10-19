@@ -4,7 +4,7 @@
 
  * A simple h，min，sec and ms count down timer.
  * Author: Luo Guowen 
- * Email: <a href="#">luoguowen123@qq.com</a>
+ * Email: luoguowen123@qq.com
  
   
       ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
