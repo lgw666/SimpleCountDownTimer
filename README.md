@@ -3,8 +3,8 @@
   ### [中文版]( https://github.com/lgw666/SimpleCountDownTimer/blob/master/README-CN.md)
 
  * A simple h，min，sec and ms count down timer.
- * Author: Luo Guowen 
- * Email: luoguowen123@qq.com
+ * Author：Luo Guowen 
+ * Email：luoguowen123@qq.com
  
   
       ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
