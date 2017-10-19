@@ -1,7 +1,8 @@
 # SimpleCountDownTimer
 
  * 一个简单的 时、分、秒，毫秒倒计时。
- * 作者： 罗国文 Email:<a href="#">luoguowen123@qq.com</a>
+ * 作者：罗国文 
+ * Email：luoguowen123@qq.com
  
    ![image](https://github.com/lgw666/SimpleCountDownTimerDemo/blob/master/SimpleCountDownTimerDemo.gif)
  * ### 设置
